@@ -10,6 +10,7 @@ import '../../data/completed/summer_2025_completed.dart';
 
 // 📱 Real Schedule Screen
 import '../schedule/schedule_screen.dart';
+import '../progress/progress_dashboard.dart';
 
 class AcademicHome extends StatefulWidget {
   const AcademicHome({super.key});
@@ -24,7 +25,7 @@ class _AcademicHomeState extends State<AcademicHome> {
   final List<Widget> _screens = [
     const DashboardScreen(),
     const ScheduleScreen(),
-    const ProgressScreen(),
+    const ProgressDashboard(),
     const GpaScreen(),
     const RequirementsScreen(),
   ];
